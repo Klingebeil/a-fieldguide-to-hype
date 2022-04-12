@@ -85,11 +85,21 @@ nav ul {
         margin: 70vh 0 0 0;
         z-index: 100;
         right: 15;
+        color: var(--main-contrast);
+        border: 1px solid var(--main-contrast);
+        background: none;
+        -webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
     }
     .arrow-left {
         position: fixed;
         margin: 70vh 0 0 0;
         z-index: 100;
         left:15;
+        color: var(--main-contrast);
+        border: 1px solid var(--main-contrast);
+        background: none;
+        -webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
 }
 }
