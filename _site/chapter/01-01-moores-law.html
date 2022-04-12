@@ -1,0 +1,126 @@
+<html lang="de">
+<head>
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="http://localhost:4000/styles.css">
+
+    <!-- HTML Meta Tags -->
+    <title>Moore’s Law</title>
+    <meta name="description" content="Ein Trendreport für die nächsten Jahre — ganz ohne Hype">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://sz-innovation.github.io/entwicklungsreport-2021/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Moore’s Law">
+    <meta property="og:description" content="Ein Trendreport für die nächsten Jahre — ganz ohne Hype">
+    <meta property="og:image" content="http://localhost:4000/img/og-teaser.jpg">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="sz-innovation.github.io">
+    <meta property="twitter:url" content="https://sz-innovation.github.io/entwicklungsreport-2021/">
+    <meta name="twitter:title" content="Moore’s Law">
+    <meta name="twitter:description" content="Ein Trendreport für die nächsten Jahre — ganz ohne Hype">
+    <meta name="twitter:image" content="http://localhost:4000/img/og-teaser.jpg">
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
+    <!--Facvicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:4000/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:4000/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="http://localhost:4000/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="http://localhost:4000/img/favicon/safari-pinned-tab.svg" color="#FFD601">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body class="bg-main txt-color">
+    <div class="page-wrapper fl w-100 pa4-ns pt3 pb3">
+    <div class="center">
+    <button class="f6 br-pill dib bn pa2" id="contents-button">
+        <svg class="svg-icon" viewBox="0 0 20 20">
+            <path fill="inherit" d="M5.029,1.734h10.935c0.317,0,0.575-0.257,0.575-0.575s-0.258-0.576-0.575-0.576H5.029
+                c-0.318,0-0.576,0.258-0.576,0.576S4.711,1.734,5.029,1.734z M1,5.188V19h18.417V5.188H1z M18.266,17.849H2.151V6.338h16.115
+                V17.849z M2.727,4.036H17.69c0.317,0,0.575-0.257,0.575-0.576c0-0.318-0.258-0.575-0.575-0.575H2.727
+                c-0.318,0-0.576,0.257-0.576,0.575C2.151,3.779,2.409,4.036,2.727,4.036z"></path>
+        </svg>
+    </button>
+    <nav class="w-100 dn pa3" id="contents">
+        <h2 class="pt2 pr2 pb2 mono lh-solid contrast-color ttu f6">
+            contents
+        </h2>
+        <ol>
+            
+                <li class="mb3 mono f6"><a href="http://localhost:4000//chapter/00-editorial" class="txt-color link">Editorial</a></li>
+            
+                <li class="mb3 mono f6"><a href="http://localhost:4000//chapter/01-00-what-drives-technology" class="txt-color link">What drives Technology?</a></li>
+            
+                <li class="mb3 mono f6"><a href="http://localhost:4000//chapter/01-01-moores-law" class="txt-color link">Moore’s Law</a></li>
+            
+        </ol>
+        <!--<button class="mt3 mono f6 br-pill bg-main contrast-color ba pa2 flex pointer" onclick="window.location.href = 'https://sz-innovation.github.io/entwicklungsreport-2021/Entwicklungsreport-2021-2022.pdf';">
+            <svg class="svg-icon" viewBox="0 0 20 20">
+                <path fill="none" d="M15.608,6.262h-2.338v0.935h2.338c0.516,0,0.934,0.418,0.934,0.935v8.879c0,0.517-0.418,0.935-0.934,0.935H4.392c-0.516,0-0.935-0.418-0.935-0.935V8.131c0-0.516,0.419-0.935,0.935-0.935h2.336V6.262H4.392c-1.032,0-1.869,0.837-1.869,1.869v8.879c0,1.031,0.837,1.869,1.869,1.869h11.216c1.031,0,1.869-0.838,1.869-1.869V8.131C17.478,7.099,16.64,6.262,15.608,6.262z M9.513,11.973c0.017,0.082,0.047,0.162,0.109,0.226c0.104,0.106,0.243,0.143,0.378,0.126c0.135,0.017,0.274-0.02,0.377-0.126c0.064-0.065,0.097-0.147,0.115-0.231l1.708-1.751c0.178-0.183,0.178-0.479,0-0.662c-0.178-0.182-0.467-0.182-0.645,0l-1.101,1.129V1.588c0-0.258-0.204-0.467-0.456-0.467c-0.252,0-0.456,0.209-0.456,0.467v9.094L8.443,9.553c-0.178-0.182-0.467-0.182-0.645,0c-0.178,0.184-0.178,0.479,0,0.662L9.513,11.973z"></path>
+            </svg>Download PDF
+        </button>
+        <button class="mt3 mono f6 br-pill bg-main contrast-color ba pa2 flex pointer" onclick="window.location.href = 'https://waspassiert.substack.com/';">
+            <svg class="svg-icon" viewBox="0 0 20 20">
+                <path fill="none" d="M17.051,3.302H2.949c-0.866,0-1.567,0.702-1.567,1.567v10.184c0,0.865,0.701,1.568,1.567,1.568h14.102c0.865,0,1.566-0.703,1.566-1.568V4.869C18.617,4.003,17.916,3.302,17.051,3.302z M17.834,15.053c0,0.434-0.35,0.783-0.783,0.783H2.949c-0.433,0-0.784-0.35-0.784-0.783V4.869c0-0.433,0.351-0.784,0.784-0.784h14.102c0.434,0,0.783,0.351,0.783,0.784V15.053zM15.877,5.362L10,9.179L4.123,5.362C3.941,5.245,3.699,5.296,3.581,5.477C3.463,5.659,3.515,5.901,3.696,6.019L9.61,9.86C9.732,9.939,9.879,9.935,10,9.874c0.121,0.062,0.268,0.065,0.39-0.014l5.915-3.841c0.18-0.118,0.232-0.36,0.115-0.542C16.301,5.296,16.059,5.245,15.877,5.362z"></path>
+            </svg>Newsletter
+        </button>-->
+    </nav>
+</div>
+<div class="arrow-nav">
+    
+        <a class="arrow-left link contrast-color" href="http://localhost:4000//chapter/01-00-what-drives-technology">&#10094;</a>
+    
+    
+</div>
+<div class="mt6 flex flex-wrap">
+    <div class="w-70-ns w-100 center">
+        <article class="f3-ns f4 mt5 mb6 center pa3" id="content">
+            <section class="f4-ns f5 mb5 txt-color w-100 lh-copy measure-wide center">
+                <h2 class="big-shoulders ttu f1" id="">Moore’s Law</h2>
+                
+                <p>In 1959 Gordon Moore, who later founded the company Intel, extrapolated a trend to make a prediction. According to Moore, the complexity of integrated circuits would double every 18 months for the foreseeable future. A forecast he later revised to a cycle of 24 months and is today known for its remarkable accuracy.</p>
+
+<p>Moore’s Law quickly became an industry benchmark, with competing firms using it to plan their R&amp;D investments, fearing they might fall behind. This ever-growing power of microchips is the basis for the later ideas of accelerating or exponential technologies. In reality, it is the best example of the potency of shared expectations.</p>
+
+            </section>
+        </article>
+    </div>
+</div>
+
+    </div>
+<script type="text/javascript">
+
+// MENU SCRIPT
+var menuButton = document.getElementById('contents-button');
+var contents = document.getElementById('contents');
+
+menuButton.addEventListener("click", function() {
+    let op = 0.1;  // initial opacity
+    contents.style.opacity = op;
+    contents.classList.remove("dn");
+    contents.classList.add("opened");
+    document.body.classList.add("contents-open");
+
+    var timer = setInterval(function () {
+        if (op >= 1){
+            clearInterval(timer);
+        }
+        contents.style.opacity = op;
+        contents.style.filter = 'alpha(opacity=' + op * 100 + ")";
+        op += op * 0.1;
+    }, 10);
+});
+
+contents.addEventListener("click", function() {
+    contents.classList.add("dn");
+    contents.classList.remove("opened");
+    document.body.classList.remove("contents-open");
+});
+</script>
+</body>
+</html>

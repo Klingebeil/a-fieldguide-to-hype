@@ -1,0 +1,21 @@
+---
+layout: default
+---
+{% include contents.html %}
+{% include next-previous-article.html %}
+<div class="mt6 flex flex-wrap">
+    <div class="w-70-ns w-100 center">
+        <article class="f3-ns f4 mt5 mb6 center pa3" id="content">
+            <section class="f4-ns f5 mb5 txt-color w-100 lh-copy measure-wide center">
+                <h2 class="big-shoulders ttu f1" id="{{title | replace: " ", "_" }}">{{page.title}}</h2>
+                {% if page.subtitle %}
+                    <div class="article-subtitle ma0 mr4 ml4 mt4 lh-copy pullquote">
+                        {{page.subtitle | markdownify}}
+                        <!--<a class="pl2 pr2 br-pill link contrast-color ba mt0 ml2 mono fs-normal tweet-button" target="_blank" href="https://twitter.com/intent/tweet/?text={{ article.subtitle | replace: " ", "%20" }}%20{{ site.url }}#{{ article.title | replace: " ", "_" }}">Tweet</a>-->
+                    </div>
+                {% endif %}
+                {{content}}
+            </section>
+        </article>
+    </div>
+</div>

@@ -1,0 +1,29 @@
+<script type="text/javascript">
+
+// MENU SCRIPT
+var menuButton = document.getElementById('contents-button');
+var contents = document.getElementById('contents');
+
+menuButton.addEventListener("click", function() {
+    let op = 0.1;  // initial opacity
+    contents.style.opacity = op;
+    contents.classList.remove("dn");
+    contents.classList.add("opened");
+    document.body.classList.add("contents-open");
+
+    var timer = setInterval(function () {
+        if (op >= 1){
+            clearInterval(timer);
+        }
+        contents.style.opacity = op;
+        contents.style.filter = 'alpha(opacity=' + op * 100 + ")";
+        op += op * 0.1;
+    }, 10);
+});
+
+contents.addEventListener("click", function() {
+    contents.classList.add("dn");
+    contents.classList.remove("opened");
+    document.body.classList.remove("contents-open");
+});
+</script>

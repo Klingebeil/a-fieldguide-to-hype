@@ -1,0 +1,51 @@
+:root {
+    --bg-main: #FFFDF9;
+    --main-contrast: #0078BF;
+    --text: #0078BF;
+    --text-secondary: #0078BF;
+  }
+
+//HELPERS
+
+.contrast-color {
+    color: var(--main-contrast) !important;
+}
+
+.bg-contrast {
+    background-color: var(--main-contrast) !important;
+}
+
+.bg-main-color {
+    color:var(--bg-main) !important;
+}
+
+.bg-main {
+    background-color: var(--bg-main) !important;
+}
+
+.txt-color {
+    color: var(--text);
+}
+
+.txt-color-secondary {
+    color: var(--text-secondary);
+}
+
+.hover-contrast:hover {
+    color: var(--main-contrast);
+}
+
+// ANIMATIONS
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+.rotate-slow {
+    animation: rotation 180s infinite linear;
+}

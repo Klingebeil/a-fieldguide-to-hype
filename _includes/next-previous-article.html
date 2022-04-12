@@ -1,0 +1,8 @@
+<div class="arrow-nav">
+    {% if page.previous.url %}
+        <a class="arrow-left link contrast-color" href="{{site.url}}/{{page.previous.url}}">&#10094;</a>
+    {% endif %}
+    {% if page.next.url %}
+        <a class="arrow-right link contrast-color" href="{{site.url}}/{{page.next.url}}">&#10095;</a>
+    {% endif %}
+</div>
