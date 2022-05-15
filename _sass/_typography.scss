@@ -21,12 +21,13 @@ body {
 }
 
 sup a{
+    font-family: 'IBM Plex Mono', monospace;
     font-variant-numeric: lining-nums;
     font-size: 0.7em;
     color: var(--text);
     text-decoration: none;
     border: 1px solid var(--text);
-    padding: 2px 4px 0px 4px;
+    padding: 0px 4px 0px 4px;
     border-radius: 99px;
     margin-left: 2px;
 
@@ -39,7 +40,8 @@ sup a{
     margin-top: 30vw;
     border-top: 1px solid var(--text);
 
-    li {margin-left: 4vw;}
+    li {margin-left: 4vw; margin-bottom: 1em;}
+    p {display: inline;}
     .reversefootnote {
         text-decoration: none;
         color: var(--text);
@@ -61,13 +63,6 @@ h1, h2, h3, h4, h5 {
 }
 
 section {
-    h4, h5 {
-        font-family: 'IBM Plex Mono', monospace !important;
-        font-size: 0.8em;
-        color: var(--main-contrast);
-        margin-left: 35px;
-        margin-top: 3em;
-    }
 
     h1, h2 {
         font-family: 'Big Shoulders Display', sans-serif;
@@ -78,12 +73,32 @@ section {
         text-align: center;
     }
 
+    h3 {
+        font-family: 'IBM Plex Mono', monospace !important;
+        font-weight: 100;
+    }
+
+    h4{
+        font-family: 'IBM Plex Mono', monospace !important;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        color: var(--main-contrast);
+        margin-top: 3em;
+        margin-bottom: 0em;
+    }
+
     div, p {
         text-align: left;
+        margin-top: 0em;
+        margin-bottom: 1em;
     }
 
     li p{ margin-left: 0px;}
-    ol {padding-left: 0px;}
+    ol {
+        padding-left: 0px;
+
+        li {margin-bottom: 1em;}
+    }
 }
 
 /*ELEMENTS*/
@@ -162,6 +177,9 @@ button {
     p {
         font-family: 'Calendas Plus', serif;
         text-align: center;
+        font-style: italic;
+
+        em, i {font-style: normal; font-variant: small-caps;}
     }
 }
 
