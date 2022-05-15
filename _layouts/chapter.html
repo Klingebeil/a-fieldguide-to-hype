@@ -9,9 +9,8 @@ layout: default
             <section class="f4-ns f5 mb5 txt-color w-100 lh-copy measure-wide center">
                 <h2 class="big-shoulders ttu f1" id="{{title | replace: " ", "_" }}">{{page.title}}</h2>
                 {% if page.subtitle %}
-                    <div class="article-subtitle ma0 mr4 ml4 mt4 lh-copy pullquote">
+                    <div class="article-subtitle ma0 mr4 ml4 mr5-ns ml5-ns mt4">
                         {{page.subtitle | markdownify}}
-                        <!--<a class="pl2 pr2 br-pill link contrast-color ba mt0 ml2 mono fs-normal tweet-button" target="_blank" href="https://twitter.com/intent/tweet/?text={{ article.subtitle | replace: " ", "%20" }}%20{{ site.url }}#{{ article.title | replace: " ", "_" }}">Tweet</a>-->
                     </div>
                 {% endif %}
                 {{content}}

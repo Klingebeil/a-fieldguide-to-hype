@@ -1,7 +1,7 @@
 ---
 layout: chapter
 title: "What drives Technology?"
-subtitle: "_Technology is not the sum of the artifacts, of the wheels and gears, of the rails and electronic transmitters. Technology is a system. It entails far more than its individual material components. Technology involves organization, procedures, symbols, new words, equations, and, most of all, a mindset._—Ursula M. Franklin"
+subtitle: "Technology is not the sum of the artifacts, of the wheels and gears, of the rails and electronic transmitters. Technology is a system.<br> It entails far more than its individual material components. Technology involves organization, procedures, symbols, new words, equations, and, most of all, a mindset.—*Ursula M. Franklin*"
 ---
 
 Technology is not magic. It’s not a force of nature, reshaping society by accident. Instead, it’s guided by social pressures, physics, capitalism, and the stories we tell.  
